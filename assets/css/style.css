@@ -1,0 +1,112 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a{
+  text-decoration: none;
+}
+ul,li{
+  list-style: none;
+}
+
+.menu ul li a{
+  color: #252525;
+  font-size: 18px;
+}
+
+.menu ul li a:hover{
+  color: grey;
+  border-bottom: 2px solid grey;
+}
+
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+  margin: 10px ;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 1px solid #252525;
+  border-right: none;
+  padding: 5px;
+  height: 36px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: grey;
+}
+
+.searchTerm:focus{
+  color: #252525;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #252525;
+  background: #252525;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+.service01 a{
+  color: #252525;
+}
+
+.service01 a:hover{
+  color: grey;
+}
+
+.service01 a img:hover{
+  box-shadow: 0 5px 5px rgba(0,0,0,0.25), 0 5px 5px rgba(0,0,0,0.22);
+}
+
+/* footer  */
+.icon01 a:hover{
+  color: grey !important;
+  font-weight: 400 !important;
+  border-bottom: 2px solid grey;
+}
+
+.quick a{
+  color: #252525;
+}
+.quick a:hover{
+  color: grey;
+  border-bottom: 1px solid grey;
+}
+
+.addrece a{
+  color: #252525;
+}
+
+.addrece a:hover{
+  color: grey;
+  border-bottom: 1px solid grey;
+}
+
+.social a{
+  color: #252525;
+}
+
+.social a:hover{
+  color: grey;
+  border-bottom: 1px solid grey;
+}
+
+.cr a{
+  color: #252525;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.cr a:hover{
+  color: grey;
+  border-bottom: 1px solid grey;
+}
